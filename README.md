@@ -1,1 +1,1 @@
-"# System Design Notes creating using AI and other resources" 
+# System Design Notes creating using AI and other resources
