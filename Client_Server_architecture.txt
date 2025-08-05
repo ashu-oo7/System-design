@@ -1,0 +1,13 @@
+Client Server model is an architecture design where you separate the client and server.
+It can 2 tier or 3 tier.Usually it is 3 tier.
+2 tier means client directly interacts with db server.
+3 tier means client interacts with app server which interacts with db.
+Thus 3 tier helps to keep UI,business logic and data separate,thus making it scalable.
+
+It can be stateful or stateless.Stateful means the client session data is stored on server.Thus scaling it mighr be difficult and
+if wanting to scale must have a common session storage.stateless does not store any session data of user.
+
+Stateful Communication - Web sockets ,WhatsApp,Realtime Gaming and E commerce cart 
+
+Stateless comm - Github login,Login authentication api call
+
